@@ -1,0 +1,64 @@
+
+<html>
+
+<h2>Post Morten</h2>
+<p>
+
+Many software projects end up in the great virtual desk drawer once
+interst is lost/the key techincal issues has been solved/a 
+general lack of practical utility has been demonstrated. Here's mine:
+
+<h3>QWebClient</h3>
+
+QWebClient was a thin client for Qt programs, implemented in pure 
+javascript that ran in any modern[2009] browser. No plugins were
+required.
+
+<br><br>
+
+Blog: <a href = http://labs.qt.nokia.com/2009/09/18/qt-in-the-cloud-with-qwebclient/> qt-in-the-cloud-with-qwebclient </a>
+
+<br><br>
+Source code: <a href = http://qt.gitorious.org/qt-labs/webclient/> qt.gitorious.org/qt-labs/webclient/ </a>
+<br><br>
+
+<img src=webclient.png>
+
+<br><br>	
+
+Technical highligts includes duplicating Qt's widget hiearachy with
+DOM nodes, and representing each widget with an image or a real DOM
+node of the correct type (ex. QLineEdit -> &ltinput type=text&gt). Event
+handling was implemented via long polling: dual XmlHttpRequests were
+made to a QTcpSocket-based event dispatcher on the server. One
+request/socket was always kept open on the server, alowing it to push
+events to the client
+ 
+ <br><br>
+ 
+Main issues were performance (lots of image data going out) and subtle
+text layout issues. Layout metrics was calcuted on the server, but 
+the actual size of the rendered text on the client would often not
+match.
+
+ <br><br>
+
+Trivia:
+<ul>
+<li> As an additional social hack an IFrame containg a live version of the chat
+example was embedd in the Qt labs blog post, causing unsuspecting blog readers
+to be thrown into an irc session. The server ran on an Amazon EC2 instance.
+<li> All instances ran in one process, creating new windows on a headless Xvfb,
+handling simultanious input from all users. I'm now surprised that Qt actaully
+handled this.
+<li> Hall-of-mirrors webkit-within-webkit was attempted with partial success.
+</ul>
+
+
+
+
+<p>
+
+
+</html>
+
