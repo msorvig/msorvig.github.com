@@ -4,11 +4,37 @@
 <h2>Post Morten</h2>
 <p>
 
-Many software projects end up in the great virtual desk drawer once
+Many software research projects end up in the great virtual desk drawer once
 interst is lost/the key techincal issues has been solved/a 
-general lack of practical utility has been demonstrated. Here's mine:
+general lack of practical utility has been demonstrated. 
 
-<h3>QWebClient</h3>
+<p>
+
+I'm documenting some of my projects here, as a record
+for myself and others that might be intersted. Reach
+me at msorvig at gmail.com.
+
+<br><br>
+
+<b>Current</b><br>
+<a href="#GitStats">Git Project History Statistics</a><br>
+
+<b>Past</b><br>
+<a href="#QWebClient">QWebClient</a>
+
+<a name="GitStats"><h3>Git Project History Statistics</h3></a>
+
+Created by parsing the output of "git log", running that through SQL, and then vizualizing with jqPlot.
+<p>
+
+Commits are counted against the first branch they appear in. Patch size is not accounted for. The branch
+names are from the perspective of today - Qt 4.7 was of course developet in the "master" branch at some
+point but is charted as "4.7".
+
+<iframe src="qt-history.html" width = 100% height = 350 frameborder='0'></iframe><br>
+<iframe src="qtcreator-history.html" width = 100% height = 350 frameborder='0'> </iframe><br>
+
+<a name="QWebClient"><h3>QWebClient</h3></a>
 
 QWebClient was a thin client for Qt programs, implemented in pure 
 javascript that ran in any modern[2009] browser. No plugins were
@@ -28,7 +54,7 @@ Source code: <a href = http://qt.gitorious.org/qt-labs/webclient/> qt.gitorious.
 
 Technical highligts includes duplicating Qt's widget hiearachy with
 DOM nodes, and representing each widget with an image or a real DOM
-node of the correct type (ex. QLineEdit -> &ltinput type=text&gt). Event
+node of the correct type (ex. QLineEdit -> &lt;input type=text&gt;). Event
 handling was implemented via long polling: dual XmlHttpRequests were
 made to a QTcpSocket-based event dispatcher on the server. One
 request/socket was always kept open on the server, allowing it to push
@@ -53,8 +79,6 @@ handling simultanious input from all users. I'm now surprised that Qt actaully
 handled this.
 <li> Hall-of-mirrors webkit-within-webkit was attempted with partial success.
 </ul>
-
-
 
 
 <p>
