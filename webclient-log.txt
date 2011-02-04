@@ -1,0 +1,823 @@
+
+Message "Hello world!" 
+Message "I'm not sure I understand this very well" 
+Message "45" 
+Message "..." 
+Message "42" 
+Message "Hi Morten, My question is not on " 
+Message "blub" 
+Message "hohumm" 
+Message "hi morten, hans" 
+Message "ohutalohu" 
+Message "Huhu" 
+Message "SPAM" 
+Message ";lk;kl" 
+Message "now, behave :)" 
+Message "omg" 
+Message "bau" 
+Message "wtf" 
+Message "Hello from cosmin" 
+Message "hello from Germany :)" 
+Message "Germany here too ;)" 
+Message "Hi cosmin & Germany :)" 
+pure virtual method called
+terminate called without an active exception
+Aborted
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "Hello" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ls
+chat.ui  irc  irc.pro  main.cpp  Makefile  qrc_dojo.cpp  qrc_src.cpp  ui_chat.h
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ps
+  PID TTY          TIME CMD
+ 3837 pts/1    00:00:00 bash
+13274 pts/1    00:00:00 Xvfb
+15383 pts/1    00:00:04 Xvfb
+15518 pts/1    00:00:00 ps
+root@ip-10-226-246-128:~/webclient/demos/irc# kill 13274
+root@ip-10-226-246-128:~/webclient/demos/irc# kill 15383
+[1]-  Done                    sudo Xvfb :1
+root@ip-10-226-246-128:~/webclient/demos/irc# ps
+  PID TTY          TIME CMD
+ 3837 pts/1    00:00:00 bash
+15519 pts/1    00:00:00 ps
+[2]+  Segmentation fault      Xvfb :0
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# Xvfb :0
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+
+
+[1]+  Stopped                 Xvfb :0
+root@ip-10-226-246-128:~/webclient/demos/irc# &
+-bash: syntax error near unexpected token `&'
+root@ip-10-226-246-128:~/webclient/demos/irc# bg
+[1]+ Xvfb :0 &
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "Hello World" 
+Message "!" 
+Message "test" 
+Message "asdf" 
+Message "asg" 
+Message "Coo" 
+Message "Amazing!" 
+Message "whos there" 
+Message "It works!" 
+Message "thats cool" 
+Message "Doesn't work in Konqueror from KDE 4.2 though" 
+Message "Hi there!" 
+Message "But perfectly in  firefox." 
+Message "hm.. din't test Konqueror" 
+Message "work's great in chrome" 
+Message "not bad :)" 
+Message "works in Chrome too!" 
+Message "people, change your nicks :)" 
+Message "nick test" 
+Message "changed it :-)" 
+Message "test" 
+Message "I even got internet explorer 8 to work" 
+Message "hello" 
+Message "wow" 
+Message "foo" 
+Message "hi" 
+Message "nice " 
+Message "wow!" 
+Message "Looks interesting" 
+Message "c pas un screenshot" 
+Message "bla" 
+Message "Responds a bit slow" 
+Message "how about using canvas instead of HTML?" 
+Message "Cool!" 
+Message "nice" 
+Message "Using canvas would be very cool." 
+Message "canvas as in HTML5 canvas ?" 
+Message "161: could work.. I guess  you can get "real" line edits etc on canvas?" 
+Message "which javascript library is used underneath ?" 
+Message "This little thing is bloody cool Morten!" 
+Message "122: Thank!" 
+Message "hel" 
+Message "or is this pur javascript code written from scratch " 
+Message "this thing is pretty coo" 
+Message "cool, even works in IE from work.." 
+Message "pure j" 
+Message "but the secuirty implications aren't that nice" 
+Message "oops.. server peaks at 100  CPU now" 
+Message "heh" 
+Message "I really hope no-one uses this to build any application where the security matters" 
+Message "<a href="http://www.google.com">Test a link</a>" 
+Message "...and it's works from Opera" 
+Message "O.o wow, what this?" 
+Message "178: Ive though ov that :)" 
+Message "qooxdoo has a Qt ui file to javascript widget convertor in works " 
+Message "Morten, Wt looks like a total ripoff of Qt to me." 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ps
+  PID TTY          TIME CMD
+ 3837 pts/1    00:00:00 bash
+15520 pts/1    00:00:06 Xvfb
+15759 pts/1    00:00:00 ps
+root@ip-10-226-246-128:~/webclient/demos/irc# kill 15520
+root@ip-10-226-246-128:~/webclient/demos/irc# Xvfb :0
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+
+[1]   Done                    Xvfb :0
+
+[2]+  Stopped                 Xvfb :0
+root@ip-10-226-246-128:~/webclient/demos/irc# bg
+[2]+ Xvfb :0 &
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "lkjlkjllj" 
+Message "test" 
+Message "ok" 
+Message "there also work menu :)" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "Hi There" 
+Message "New Nick" 
+Message "new Msg via Firefox" 
+Message "hi" 
+Message "Yo! Seems working in Opera" 
+Message "works with arora too" 
+Message "Same with Konqueror 4.3.1" 
+Message "interesting" 
+Message "I'm wondering which kind of Data is transferred between Server and Browser?" 
+Message "test from safari" 
+Message "FireFox: or try with FireBug" 
+Message "hi" 
+Message "It does not seem to be plain pixel data" 
+Message "jep that should show it." 
+Message "of cause not. that would be silly" 
+Message "some of it is pixel data, the line and text edit is real and sends text data" 
+Message "Well, I see some kind of themeing" 
+Message "hello cloud" 
+Message "hi" 
+Message "hello cloud" 
+Message "helloo" 
+Message "Thats standard plastique style" 
+Message "good job morten" 
+Message "awesome" 
+Message "works for me" 
+Message "thanks!" 
+Message "i like pastique" 
+Message "Fonts and background colour is different on  Firefox and Konqueror" 
+Message "*plastique" 
+Message "so I have to go back at work ;) - cu" 
+Message "cool stuff" 
+Message "FireFox: shold folloe the browser default" 
+Message "... plasitique style: How does FF know about Placitique" 
+Message "it doesn't. that part is rendered on the server and sent over as a png" 
+Message "In firefox it shows the plastique style" 
+Message "aha" 
+Message "I Just see that scrollbars are different als well" 
+Message "nice :)" 
+Message "the scoll bras are native - win scroll bars on windows, etc" 
+Message "i got mac scrollbars :)" 
+Message "crazy" 
+Message "I see, so you use native UI-Components if they are available through Javascript or pixel graphics whrere not, right? " 
+Message "FireFox: correct" 
+Message "hey" 
+Message "(not all UI-components are implemented yet though)" 
+Message "Uh, my Konqueror just missed my message I sent on firefox and also the following replies. is there atimeout?" 
+Message "Any Qt app can work with QWebClient ? Even apps which use GraphicsView and Webkit ?" 
+Message "cool" 
+Message "10-minute session timeout" 
+Message "it doesn't auto-scroll, so I always have to scroll manually, when someone replies" 
+Message "wow! this is impressive" 
+Message "whoot ?" 
+Message "Hello. It doesn't compile on x86_64, you need to cast the widget pointer to int 64bit" 
+Message "I can still write messages to this chat on my timeout session, but down't receive any. Bug?" 
+Message "dfgdfg" 
+Message "OperaUser: any Qt app (but there are lots of bugs still) performance will be bad with GV though; each frame is rendered on the server and sent as a png" 
+Message "Wow impressive!" 
+Message "MyNick: yes, the client currently does not get a notification that there was a timeout" 
+Message "Morten: ok, thanks!" 
+Message "I'm back" 
+Message "Hi" 
+Message "14: Hello!" 
+Message "Well, after some time of messing around, I'm impressed" 
+Message "Is the server code of this chat available to get an impression how complex that is?" 
+Message "hello" 
+Message "Just saw the code snippet of Qt Side (Server)" 
+Message "hello" 
+Message "FireFox: in the git repo, but thats a good idea, I'll try to get a link up" 
+Message "It seems to me that you design a normal qt-app and pass the rootWidget to QWebClient." 
+Message "thdt" 
+Message "What's this?!? =)" 
+Message "So (almost) any Qt App will work with QWebClient, right?" 
+Message "Firefox: correct, but you have to accont for multiple users." 
+Message "In theory :) " 
+Message "@Morten: ;-)" 
+Message "So, I'm off, have to start real work again, but will keep that in my mind." 
+Message "??????, ????? ???!" 
+Message "tes" 
+Message "Thanks for your inspiration." 
+Message "hmm... it supports latin1 only :(" 
+Message "FireFox: tanks for the feedback!" 
+Message "__" 
+Message "this is cool, isn't it?" 
+Message "77" 
+Message "Sergeich: yeah, I18n support is missing" 
+Message "woah ,this is coool" 
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "sdf" 
+Message "gg" 
+Message "Hello again! (back from another crash)" 
+Message "hello" 
+Message "Cool" 
+Message "wow i thought this was an image, now i see its not :o" 
+Message "198: hehe :)" 
+Message "this is extremely awesome, congrats :)" 
+Message "I thought that too" 
+Message "thanks!" 
+Message "wow" 
+Message "back to work, have fun :)" 
+Message "napierdala?" 
+Message "waou" 
+Message "it's great" 
+Message "wondaful!" 
+Message "amzing!" 
+Message "super!" 
+Message "bncvb" 
+Message "vbnv" 
+Message "great" 
+Message "test" 
+Message "sh!t, it runs!" 
+Message ":)" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "Hello!" 
+Message "abc" 
+Message "totally awesome" 
+Message "Hi there" 
+Message "Yeah" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ps
+  PID TTY          TIME CMD
+ 3837 pts/1    00:00:00 bash
+15760 pts/1    00:00:09 Xvfb
+16443 pts/1    00:00:00 ps
+root@ip-10-226-246-128:~/webclient/demos/irc# kill 15760
+root@ip-10-226-246-128:~/webclient/demos/irc# Xvfb :0
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+[2]   Done                    Xvfb :0
+
+[3]+  Stopped                 Xvfb :0
+root@ip-10-226-246-128:~/webclient/demos/irc# bg
+[3]+ Xvfb :0 &
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "hi" 
+Message "moinmoin" 
+Message "hihi" 
+Message "Morn!" 
+Message "heisann!" 
+Message "Er det Morten?" 
+Message "det er meg" 
+Message "Dette er Andreas. Jeg er p/u00e5koblet fra Lillehammer." 
+Message "nice work!" 
+Message "/me is andreas" 
+Message "How on earth does this work?" 
+Message "Lillehammer?" 
+Message "Yeah, it's my day off today. ;-)" 
+Message "I see" 
+Message "Awesome, I just got my own QtWebClient chat working " 
+Message "wow" 
+Message "ajax + grebWidget + event filters + QTcpSocket is the short story of how it works :)" 
+Message "i love that" 
+Message ":-D" 
+Message "it's working ..." 
+Message "Now i'm gonna try this with QWebKit :D" 
+Message "+/u011b/u0161/u010d/u0159/u017e/u00fd/u00e1/u00ed/u00e9/u00fa/u016f" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "+" 
+Message "+/" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+?ç
+
+-bash: ?ç: command not found
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "ping" 
+Message "no javascript injection attacks please!" 
+Message ":)" 
+Message "morten: brave man ;-)" 
+Message "hey!!" 
+Message "Im doing a lot of filtering, shold be safe" 
+Message "mehehe" 
+Message "msg" 
+Message "huh" 
+Message ":PPPP" 
+Message "Impressive" 
+Message "indeed" 
+Message "thanks!" 
+Message "so this is what happens during creative friday at Qt R&D... :-)" 
+Message ";)" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# ps
+  PID TTY          TIME CMD
+ 3837 pts/1    00:00:00 bash
+16579 pts/1    00:00:00 ps
+[3]+  Segmentation fault      Xvfb :0
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# Xvfb :0
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+
+
+
+[1]+  Stopped                 Xvfb :0
+root@ip-10-226-246-128:~/webclient/demos/irc# bg
+[1]+ Xvfb :0 &
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "bla" 
+Message "blub" 
+Message "back again! yet another crash" 
+Message "interactive blog. hehe." 
+Message "cool" 
+Message "say hallo" 
+Message "test" 
+Message "50: hello!" 
+Message "In the RSS feed was a lot more info than I'm seeing on the blog!" 
+Message "hellp" 
+Message "hello" 
+Message "hi all!" 
+Message "what now?" 
+Message "test" 
+Message "nice" 
+Message "asd" 
+Message "94: try reloading the page, i accidentally commented out evrything" 
+Message ";)" 
+Message "that was not wise ;-)" 
+Message "OMG Webkit is working in this" 
+Message "linux" 
+Message "Not yet, but i will check again later" 
+Message "ldgd" 
+Message "what is this?" 
+Message "I found a solution to the ipv4 shortage" 
+Message "test" 
+Message "what is that?" 
+Message ":D" 
+Message "qwebclient" 
+Message "Just wait, shortage will be back" 
+Message "hello" 
+Message "killbill" 
+Message "Haha, this is cool!" 
+Message "(btw this thing crashes from time to time, relaod the bage if it goes quiet)" 
+Message "this is great and all... but what everybody is wondering is... can you do wiggly? ;-D" 
+Message ":-)" 
+Message "bivr: no port is complete until it does wiggly!" 
+Message "ehlo" 
+Message "that would probalby increase my amazon bill though" 
+Message "/me does the wiggly" 
+Message "bibr: currenly at $0.91, you'll get the expense report on moday :)" 
+Message "is it quiet now?" 
+Message "This is neat :)" 
+Message "woot" 
+Message "I thought this was just a static screenshot at first! /facepalm" 
+Message "nice :)" 
+Message ":-)" 
+Message "ggg" 
+Message "hoj" 
+Message "you can even move that window.." 
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "test" 
+Message "test" 
+Message "bite" 
+Message "test" 
+Message "Hello!" 
+Message "bla" 
+Message "Funguje to :-)" 
+Message "ping" 
+Message "test" 
+Message "ola" 
+Message "abcdef" 
+Message "fgh" 
+Message "anu" 
+Message "msg" 
+Message "wow" 
+Message "hej" 
+Message "ei" 
+Message "it works !!" 
+Message "woo" 
+Message "lol" 
+Message "bar" 
+Message "nada" 
+Message "..." 
+Message "this is too cool." 
+Message ":)" 
+Message "??, ??? ??????" 
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "ki" 
+Message "Hello!" 
+Message "cool" 
+Message "Spookey" 
+Message "e ae" 
+Message "wow" 
+Message "e aew" 
+Message "hi" 
+Message "/me abandons ir" 
+Message "Maybe not ye" 
+Message "prdelka" 
+Message "a do prdele" 
+Message "hmm" 
+Message "Brazil" 
+Message "docela super" 
+Message "a" 
+Message "ghghk" 
+Message "tassio" 
+Message "ahoj" 
+Message "nic" 
+Message "zdar" 
+Message "jonatha" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ./irc 
+Message "qqq" 
+Segmentation fault
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# ps
+  PID TTY          TIME CMD
+ 3837 pts/1    00:00:00 bash
+16580 pts/1    00:00:07 Xvfb
+16799 pts/1    00:00:00 ps
+root@ip-10-226-246-128:~/webclient/demos/irc# kill 3837
+root@ip-10-226-246-128:~/webclient/demos/irc# ps
+  PID TTY          TIME CMD
+ 3837 pts/1    00:00:00 bash
+16580 pts/1    00:00:07 Xvfb
+16800 pts/1    00:00:00 ps
+root@ip-10-226-246-128:~/webclient/demos/irc# kill 16580
+root@ip-10-226-246-128:~/webclient/demos/irc# Xvfb :0
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+
+[1]   Done                    Xvfb :0
+
+[2]+  Stopped                 Xvfb :0
+root@ip-10-226-246-128:~/webclient/demos/irc# bg
+[2]+ Xvfb :0 &
+root@ip-10-226-246-128:~/webclient/demos/irc# gdb ./irc
+GNU gdb 6.8-debian
+Copyright (C) 2008 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i486-linux-gnu"...
+(gdb) r
+Starting program: /root/webclient/demos/irc/irc 
+[Thread debugging using libthread_db enabled]
+[New Thread 0xb7f49700 (LWP 16805)]
+
+
+Message "hi" 
+Message "qwerty" 
+Message "qwerty" 
+Message "yeah" 
+Message "cool" 
+Message "p?ili? ?lu?ou?kï¿½" 
+Message "?????" 
+Message "hello" 
+Message "whee" 
+Message "knhfkjsahf" 
+Message "hi there!" 
+Message "awesome" 
+Message "hi" 
+Message "/test" 
+Message "hello?" 
+Message "whee" 
+Message "!@8&" 
+Message "<b>Hi!</b>" 
+Message "hello" 
+Message "no html!" 
+Message "hello" 
+Message "no utf-8 either" 
+Message "hi!" 
+Message "woo, wasn't working before" 
+Message "fezezf" 
+Message "maneiro" 
+Message "test" 
+Message "lol, escaping fail :-)" 
+Message "some german letters: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" 
+Message "baf" 
+Message "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" 
+Message "can't belive it!" 
+Message "???" 
+Message "XD" 
+Message ":)" 
+Message ":-D" 
+Message ";)" 
+Message "no javascript injection attacks!" 
+Message "..." 
+Message "..." 
+Message "hh" 
+Message "xD" 
+Message "testing" 
+Message "The scrollbar doesn't work" 
+Message "cool" 
+Message "it works for me" 
+Message "bbq" 
+Message "doesn't work here too" 
+Message "some scrolling issues, yeah" 
+Message "This is amazingly cool" 
+Message "definitely" 
+Message "wow, this is awesome" 
+Message "???" 
+Message "abc" 
+Message "does it work with themes?" 
+Message "app itself is this chat?" 
+
+Program received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 0xb7f49700 (LWP 16805)]
+0x203a6e65 in ?? ()
+(gdb) 
+(gdb) 
+(gdb) q
+The program is running.  Exit anyway? (y or n) y
+root@ip-10-226-246-128:~/webclient/demos/irc# [dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+
+root@ip-10-226-246-128:~/webclient/demos/irc# 
+root@ip-10-226-246-128:~/webclient/demos/irc# gdb ./irc
+GNU gdb 6.8-debian
+Copyright (C) 2008 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i486-linux-gnu"...
+(gdb) r -style CDE
+Starting program: /root/webclient/demos/irc/irc -style CDE
+[Thread debugging using libthread_db enabled]
+[New Thread 0xb7ef1700 (LWP 16914)]
+Message "new theme!" 
+Message "So that's why it stopped working for a moment?" 
+Message "server crashed" 
+Message "olol" 
+Message "hmm" 
+Message "doesn't like unicode: ????" 
+Message "no, stick to ascii :)" 
+Message "okei" 
+Message "test utf8: ??????ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" 
+Message "dsfdsfsd" 
+Message "The button, scrollbar, lineedit are styled by the web browser, I think" 
+Message "aaa" 
+Message "aaa" 
+Message "whee" 
+Message "yes, those are native UI elements" 
+Message "not bad, not bad at all" 
+Message "I thought this was just a screenshot first ... until messages started to appear :)" 
+Message "CDE style leaves a lot to be desired though :)" 
+Message "dobe dobe do" 
+Message "outstanding!" 
+Message "wow" 
+Message "hello" 
+Message "hello" 
+Message "tt" 
+Message "pretty nice" 
+Message "nice" 
+Message "wow" 
+Message "thanks!" 
+Message "hello world" 
+Message "test" 
+Message "mamrd" 
+Message "yes!" 
+Message "hello world" 
+Message ":-)" 
+Message "k" 
+Message "check" 
+Message "hey everyone" 
+Message "Nice one, Morten!" 
+Message "I don't believe that real users post these messages :D" 
+Message "Fantastic result... Quite surprised as well :)" 
+Message "Looks cool!" 
+
+Program received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 0xb7ef1700 (LWP 16914)]
+0x080528cb in EventQueue::toJsonWidgetType ()
+Current language:  auto; currently asm
+(gdb) r -style cleanlooks
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) bt
+#0  0x080528cb in EventQueue::toJsonWidgetType ()
+#1  0x08053dd5 in EventQueue::jsonTextUpdateEvent ()
+#2  0x080540f7 in EventQueue::queueToByteArray ()
+#3  0x0805429e in EventQueue::handleRequest ()
+#4  0x080510b6 in WidgetEventHandler::handleRequest ()
+#5  0x08065a9f in SessionServer::qt_metacall ()
+#6  0x00736758 in QMetaObject::activate (sender=0xccc4628, from_signal_index=5, to_signal_index=5, argv=0xbfc79a2c) at kernel/qobject.cpp:3104
+#7  0x007373e2 in QMetaObject::activate (sender=0xccc4628, m=0x80670f8, local_signal_index=1, argv=0xbfc79a2c) at kernel/qobject.cpp:3178
+#8  0x08064fdb in Session::requestContent ()
+#9  0x0805a8a7 in Server::dataOnSocket ()
+#10 0x08065093 in Server::qt_metacall ()
+#11 0x00736758 in QMetaObject::activate (sender=0x12656c50, from_signal_index=4, to_signal_index=4, argv=0x0) at kernel/qobject.cpp:3104
+#12 0x007373e2 in QMetaObject::activate (sender=0x12656c50, m=0x8110e8, local_signal_index=0, argv=0x0) at kernel/qobject.cpp:3178
+#13 0x0076f647 in QIODevice::readyRead (this=0x12656c50) at .moc/release-shared/moc_qiodevice.cpp:85
+#14 0x0025db52 in QAbstractSocketPrivate::canReadNotification (this=0x1546e030) at socket/qabstractsocket.cpp:604
+#15 0x0024b1bb in QAbstractSocketEngine::readNotification (this=0xd6fff18) at socket/qabstractsocketengine.cpp:154
+#16 0x0024c516 in QReadNotifier::event (this=0x12683748, e=0xbfc79f70) at socket/qnativesocketengine.cpp:1036
+#17 0x00f8ffec in QApplicationPrivate::notify_helper (this=0x8977240, receiver=0x12683748, e=0xbfc79f70) at kernel/qapplication.cpp:4056
+#18 0x00f9830e in QApplication::notify (this=0xbfc7a430, receiver=0x12683748, e=0xbfc79f70) at kernel/qapplication.cpp:3603
+#19 0x0072123b in QCoreApplication::notifyInternal (this=0xbfc7a430, receiver=0x12683748, event=0xbfc79f70) at kernel/qcoreapplication.cpp:610
+#20 0x0074d6fa in QEventDispatcherUNIX::activateSocketNotifiers (this=0x8977ff0) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:213
+#21 0x0074dc6d in QEventDispatcherUNIXPrivate::doSelect (this=0x8978000, flags={i = -1077436184}, timeout=0xbfc7a0e0)
+    at kernel/qeventdispatcher_unix.cpp:250
+#22 0x0074eea1 in QEventDispatcherUNIX::processEvents (this=0x8977ff0, flags={i = -1077436024}) at kernel/qeventdispatcher_unix.cpp:904
+#23 0x010309d2 in QEventDispatcherX11::processEvents (this=0x8977ff0, flags={i = -1077435576}) at kernel/qeventdispatcher_x11.cpp:152
+#24 0x0071f86a in QEventLoop::processEvents (this=0xbfc7a3c0, flags={i = -1077435512}) at kernel/qeventloop.cpp:149
+#25 0x0071fcb2 in QEventLoop::exec (this=0xbfc7a3c0, flags={i = -1077435448}) at kernel/qeventloop.cpp:201
+#26 0x007220a9 in QCoreApplication::exec () at kernel/qcoreapplication.cpp:888
+#27 0x00f8fe67 in QApplication::exec () at kernel/qapplication.cpp:3525
+#28 0x08062b14 in main ()
+(gdb) r -style cleanlooks
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /root/webclient/demos/irc/irc -style cleanlooks
+[dix] Could not init font path element /usr/share/fonts/X11/cyrillic, removing from list!
+[config/dbus] couldn't register object path
+(EE) config/hal: NewInputDeviceRequest failed (2)
+[Thread debugging using libthread_db enabled]
+[New Thread 0xb7f82700 (LWP 17047)]
+Message "hh" 
+Message "it is great" 
+Message "it is" 
+Message "definitely impressive for a quick hack." 
+Message "very nice" 
+Message "thanks!" 
+Message "(perhaps not quick, bat a hack at least :)" 
+Message "Window resizing and maximization seems to be un-implemented, but then that's what "quick hack" means" 
+Message "new theme again" 
+Message "cleanlooks this time :)" 
+Message "crashed again? or just restarted it for the theme?" 
+Message "now reimplement kwin as a web app :D" 
+Message "anyway, I like cleanlooks best :)" 
+Message "crash, got a backtrace from GDB this time" 
+Message "lol" 
+Message "this is great!!!" 
+Message "hyhh" 
+Message "this is way cool :) " 
+Message "445" 
+Message "I really like this here Morten :)" 
+Message "http://img183.imageshack.us/img183/879/xzibit.png" 
+Message "rosh: thanks!" 
+Message "no html" 
+Message "!" 
+Message "Nice job Morten :)" 
+Message "It seems that issues I reported in comments are limited only to Opera" 
+Message "Because my "browser" works fine in firefox" 
+Message ":)" 
+Message "77.254.5.188 = OperaUser :)" 
+Message "howto compile the webclient?" 
+Message "?????? ?? ??? ??? " 
+Message "git://gitorious.org/qt-labs/webclient.git" 
+Message "try the example: demos/irc" 
+Message "qmake and make" 
+Message "cool, thanks!" 
+Message "This is just a test" 
+Message "cu" 
+Message "byebye" 
+Message ":)" 
+Message "germans here? :P" 
+Message "french" 
+Message "switzerland ^^" 
+Message "well, french switzerland :)" 
+Message "brazil" 
+Message "india" 
+Message "norway" 
+Message "norway!" 
+Message "test" 
+Message "Japan - wow, this is some seriously great stuff here" 
+Message "test? that's not even a country!" 
+Message "hello world" 
+Message "poland?" 
+
+
+Message "why does it show xg when I put xgh as the nick?" 
+Message "oh" 
+Message "h" 
+Message "ohh" 
+Message "no commect :D" 
+Message "Hi" 
+Message "nice widget" 
+Message "D" 
+Message "!" 
+Message "P" 
+Message "/quit" 
+Message "/nick test" 
+Message "I created .ui form in qt designer and ready! like magic is rendered in my browser ..." 
+Message "format c:" 
+Message "Segmemtation fault." 
+Message ":D" 
+Message "thanks! stick to ascii for the nicks" 
+Message "F" 
+Message "Seems unbelivable" 
+Message "test" 
+Message "Something is wrong..." 
+Message "The message you have sent could not be written" 
+Message "Cha... nejde..." 
+Message "A uz ide..." 
+Message "je?t?" 
+Message "?" 
+Message "nnnn" 
+Message "What does it mean: The message could not be written?" 
+Message "D a joke" 
+Message "yes, someone is being funny :)" 
+Message "du" 
+Message "ok. Thanks" 
+Message "hi" 
+Message "bb" 
+Message "zaj/u00edmav/u00e9 :)" 
+Message "dd" 
+Message "ff" 
+Message "what's this?" 
+
+
